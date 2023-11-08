@@ -107,7 +107,7 @@ async def aioTsDECO(key):
 if __name__ == '__main__':
 
     header = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
     }
 
     filePath = 'E:\\'
@@ -137,7 +137,7 @@ if __name__ == '__main__':
 
         asyncio.run(aioMergeVideo())
 
-        cmd_str = f'ffmpeg -f concat -safe 0 -y -i E:\\fileList.txt -c copy -strict -2 F:\\Video\\The_Honor_of_Father\\episode_{episode}.mp4'
+        cmd_str = f'ffmpeg -f concat -safe 0 -y -i E:\\fileList.txt -c copy -strict -2 F:\\Video\\Good_Thing_Double\\episode_{episode}.mp4'
         run(cmd_str, shell=True)
         print('-' * 33)
         # print(f'video {episode} merge completely.')

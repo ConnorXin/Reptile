@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
         videoHeader = {
             'User-Agent': 'Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
-            'Cookie': 'SINAGLOBAL=6564952634909.906.1680697786553;UOR=,,m.weibo.cn;XSRF-TOKEN=qxOdfo9CeVsl0GoyL9Q3k_Qn;SSOLoginState=1693499156;_s_tentry=-;Apache=9037331429927.24.1693627327381;ULV=1693627327524:4:1:1:9037331429927.24.1693627327381:1684675371845;SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W5yPX02GTP5aKL9fvaV9c4v5JpX5KMhUgL.Fo-4Sh2fe0zXShq2dJLoIp7LxKqL1KMLBoqLxK-LBo2LB.9ki--ciK.RiK.f;ALF=1698565271;SCF=Av3iORL8Riuy7ud6FHByhTxZLppQDaFKxx6J5M4vO6QNtXu15azTKgdCTzjuoyHHS5-hcCVQq5OG71nfQo1safg.;SUB=_2A25IEg_JDeRhGeNH71MU8yzIzzqIHXVrZmYBrDV8PUNbmtAGLXnFkW9NSqHPYF18dZXkgsmIC0xMYqGHgkEwp9zD;PC_TOKEN=482073b08f;WBPSESS=gN4l19SPl2zPeLrUF3_e1RiVlFcP6atP92aPv9_1_QZbMujaMG5gi0XjXb2DusaZyHjS1RYYskcvqgUJwLX5u2GixO5Sjr3X-LBf3Tw_qI0-NgzWP3vXJYciaMLgDxDw',
+            'Cookie': 'SINAGLOBAL=6564952634909.906.1680697786553;XSRF-TOKEN=qxOdfo9CeVsl0GoyL9Q3k_Qn;SSOLoginState=1693499156;_s_tentry=-;Apache=9037331429927.24.1693627327381;ULV=1693627327524:4:1:1:9037331429927.24.1693627327381:1684675371845;UOR=,,login.sina.com.cn;SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W5yPX02GTP5aKL9fvaV9c4v5JpX5KMhUgL.Fo-4Sh2fe0zXShq2dJLoIp7LxKqL1KMLBoqLxK-LBo2LB.9ki--ciK.RiK.f;ALF=1701828084;SCF=Av3iORL8Riuy7ud6FHByhTxZLppQDaFKxx6J5M4vO6QNmMlW-PFnSjUrDB7PkUQq7QrDHbsg2aD8BO9TNmOO2wk.;SUB=_2A25ITDilDeRhGeNH71MU8yzIzzqIHXVrIDRtrDV8PUNbmtAGLWetkW9NSqHPYDWZosdUc8XC4sPc_HdifxEueMwn;WBPSESS=gN4l19SPl2zPeLrUF3_e1RiVlFcP6atP92aPv9_1_QZWSNZc6UMtaJ2uCQR6L-gKOkfMeqPXoG-yV8_mQzkERmuLrlLtOxBsRE8gYs3kx6FMUSGN-PXD8X9RvVw6LAG5',
             'Referer': 'https://weibo.com/',
             'Origin': 'https://weibo.com',
             'Page-Referer': f'/tv/show/{oid}',
@@ -28,7 +28,7 @@ if __name__ == '__main__':
             'X-Xsrf-Token': 'qxOdfo9CeVsl0GoyL9Q3k_Qn',
             'Ssl_node': 'mweibo-sslv6-003.yf.intra.weibo.cn'
         }
-        data = {  # corporation
+        data = {
             'data': '{"Component_Play_Playinfo": {"oid": "' + oid + '"}}'
         }
 
